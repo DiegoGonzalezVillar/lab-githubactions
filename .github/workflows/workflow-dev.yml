@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   build-dev:
-    uses: ./.github/workflows/deploy-to-s3.yml@develop
+    uses: ./.github/workflows/deploy-to-s3.yml
     with:
       CI_ENV: dev
     secrets:
