@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   build-dev:
-    uses: ./.github/workflows/deploy-to-s3.yml@main
+    uses: ./.github/workflows/deploy-to-s3.yml
     with:
       CI_ENV: production
       CONTENTFUL_ENVIRONMENT: 'main'
